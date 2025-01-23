@@ -3,7 +3,7 @@ name: WakaTime Stats Update
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allows you to trigger the action manually
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-readme:
