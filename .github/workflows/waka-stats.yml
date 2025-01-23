@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: WakaTime Readme Stats
-        uses: athul/waka-readme@v2.1.0
+        uses: athul/waka-readme@vmaster
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
