@@ -1,24 +1,18 @@
 name: WakaTime Stats Update
 
 on:
-  # Allows manual workflow trigger
-  workflow_dispatch:
-  # Scheduled run at 12 AM UTC
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
       - name: WakaTime Readme Stats
-        uses: athul/waka-readme@master # Use the master branch as specified in the example
+        uses: athul/waka-readme@v2.1.0
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Replace with your secret
-          # Optional additional configurations
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          SHOW_TITLE: true
-          LANG_COUNT: 5
-          SHOW_TOTAL: true
-          COMMIT_MESSAGE: "Updated WakaTime stats"
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
