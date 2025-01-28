@@ -1,14 +1,14 @@
 
 
 # Hi there! 👋 I'm David  
-💻 **Web Developer** | 🚀 **Tech Enthusiast** | 🦆 **Rubber Duck Debugging Disciple**
+💻 **Front-End Web Developer** | 🚀 **Tech Enthusiast** | 🦆 **Rubber Duck Debugging Disciple**
 
 ---
 
 ## 🌟 About Me  
-- 🖥️ Passionate about creating **user-friendly web apps**  
+- 🖥️ Passionate about creating **beautifu, user-friendly web apps**  
 - 📚 Currently learning: **Advanced React & Backend Development**  
-- 🏋️‍♂️ Fun fact: I’m working on mastering the **one-handed pull-up!** 💪  
+- 🏋️‍♂️ Fun fact: I never skip **leg day!** 💪  
 
 ---
 
