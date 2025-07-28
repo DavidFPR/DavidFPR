@@ -6,7 +6,7 @@
 ---
 
 ## 🌟 About Me  
-- 🖥️ Passionate about creating **beautifu, user-friendly web apps**  
+- 🖥️ Passionate about creating **beautiful, user-friendly web apps**  
 - 📚 Currently learning: **Advanced React & Backend Development**  
 - 🏋️‍♂️ Fun fact: I never skip **leg day!** 💪  
 
